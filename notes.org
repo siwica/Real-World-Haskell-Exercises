@@ -1,0 +1,13 @@
+* Compiler-Optionen
+
+  Warnt zur Compile-Zeit vor "Non-Exhaustive Patterns"
+
+  #+BEGIN_SRC sh
+  -fwarn-incomplete-patterns
+  #+END_SRC
+
+  Warnt zur Compile-Zeit vor shadowed Variablen
+
+  #+BEGIN_SRC sh
+  -fwarn-name-shadowing
+  #+END_SRC
